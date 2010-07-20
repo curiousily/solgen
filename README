@@ -8,5 +8,6 @@ Instruction for usage:
 	git clone git@github.com:venelin/solgen.git
 4. Edit solutions-dir in solgen/config/conf.yaml
 5. sudo chmod +x solgen.rb
-6. ./solgen.rb Problem Number Problem Name (If you don't format properly your arguments the behaviour of Solgen is unpredictable)
+6. ./solgen.rb Problem-Number Problem-Name 
+	(If you don't format properly your arguments the behaviour of Solgen is unpredictable)
 7. Solve that problem and have fun :)	
