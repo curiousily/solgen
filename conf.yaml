@@ -1,0 +1,5 @@
+solutions-dir: E:\Documents and Settings\venelin\Desktop\Dev\cpp\workspace
+template: template.cpp
+main: main.cpp
+input-test: in.txt
+output-test: out.txt
