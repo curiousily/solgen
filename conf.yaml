@@ -1,4 +1,4 @@
-solutions-dir: E:\Documents and Settings\venelin\Desktop\Dev\cpp\workspace
+solutions-dir: your solutions path here
 template: template.cpp
 main: main.cpp
 input-test: in.txt
