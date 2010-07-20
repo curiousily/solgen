@@ -1,4 +1,4 @@
-solutions-dir: your solutions path here
+solutions-dir: /home/vini/Dev/c/workspace/uva
 template: template.cpp
 main: main.cpp
 input-test: in.txt

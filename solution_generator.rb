@@ -1,5 +1,5 @@
-require "FileUtils"
-require "YAML"
+require "fileutils"
+require "yaml"
 
 class SolutionGenerator
 

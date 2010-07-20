@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 require "solution_generator"
 
 project_name = ARGV.shift + "-" + ARGV.shift
