@@ -3,3 +3,4 @@ template: template/main.cpp
 main: main.cpp
 input-test: in.txt
 output-test: out.txt
+expected-test: expected.txt
