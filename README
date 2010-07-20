@@ -1,6 +1,6 @@
 Simple template generator for problems at http://uva.onlinejudge.org/
 
-Instruction for usage:
+Instructions for usage:
 
 1. Install ruby (this code is developed with version 1.9.1 but probably will be compatible with 1.8.7 and >1.9.1)
 2. Install git (more info at http://git-scm.com/)
