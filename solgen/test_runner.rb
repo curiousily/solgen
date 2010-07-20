@@ -10,14 +10,9 @@ class TestRunner
   end
 
   def run
-    out_content = Array.new
-    while (line = @out_file.gets)
-      out_content << line
-    end
-    expected_content = Array.new
-    while (line = @expected_file.gets)
-      expected_content << line
-    end
+    out_content = content_of @out_file
+    expected_content = content_of @expected_file
+
     expected_content.each_with_index do |expected_line, index|
       if (expected_line != out_content[index])
         puts "Expected #{format_test_line(expected_content, index)} " +
@@ -30,10 +25,19 @@ class TestRunner
   end
 
   private
+
   def format_test_line(collection, index)
     if (collection[index].nil?)
       return "EMPTY"
     end
     collection[index].chomp
+  end
+
+  def content_of(file)
+    content = Array.new
+    while (line = file.gets)
+      content << line
+    end
+    content
   end
 end
