@@ -3,17 +3,17 @@ require "yaml"
 
 class SolutionGenerator
 
-  def initialize(project_name, config_file)    
+  def initialize(project_name, config_file)
     @config_file = YAML::load_file config_file
     @project_path = File.join(Dir.getwd, project_name)
   end
 
   def create
-    make_project_dir    
+    make_project_dir
     create_project_files
   end
 
-private
+  private
   def make_project_dir
     Dir.mkdir(@project_path)
   end
