@@ -1,3 +1,12 @@
 Simple template generator for problems at http://uva.onlinejudge.org/
 
-Please configure conf.yaml for your specific machine!
+Instruction for usage:
+
+1. Install ruby (this code is developed with version 1.9.1 but probably will be compatible with 1.8.7 and >1.9.1)
+2. Install git (more info at http://git-scm.com/)
+3. Do a clone: 
+	git clone git@github.com:venelin/solgen.git
+4. Edit solutions-dir in solgen/config/conf.yaml
+5. sudo chmod +x solgen.rb
+6. ./solgen.rb Problem Number Problem Name (If you don't format properly your arguments the behaviour of Solgen is unpredictable)
+7. Solve that problem and have fun :)	
